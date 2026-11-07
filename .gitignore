@@ -1,0 +1,43 @@
+# Android & Flutter build artifacts
+*.apk
+*.aab
+*.ipa
+CyberNet-debug.apk
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+
+# Python & Backend
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*/*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.db
+*.sqlite3
+backend/.env
+backend/.venv/
+backend/venv/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Screenshots & Local debug images
+/*.png
+screen_*.png
+phone_*.png
+mobile_screenshot*.png
+s1.png
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.log

@@ -20,7 +20,7 @@ class WebSocketService {
   bool _manualDisconnect = false;
 
   static String getWsUrl(String roomId, String token) {
-    return 'ws://${ApiEndpoints.host}/api/v1/ws/$roomId?token=$token';
+    return '${ApiEndpoints.wsProtocol}://${ApiEndpoints.cleanHost}/api/v1/ws/$roomId?token=$token';
   }
 
   Future<void> connect(String roomId, String token) async {
